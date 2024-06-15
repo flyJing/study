@@ -1,0 +1,442 @@
+2024-05-10 14:46:13.121 +08:00 [INF] Starting web application
+2024-05-10 14:46:13.309 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 14:46:13.312 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 14:46:13.838 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 14:46:13.878 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 14:46:13.879 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 43.3759ms
+2024-05-10 14:46:13.989 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 110.9288ms
+2024-05-10 14:46:13.999 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 14:46:13.999 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 14:46:13.999 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 14:46:14.016 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 14:46:14.020 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 21.0407ms
+2024-05-10 14:46:14.034 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 14:46:14.036 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 36.5698ms
+2024-05-10 14:46:14.067 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 14:46:14.068 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 68.9671ms
+2024-05-10 14:46:14.207 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 14:46:14.222 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - -
+2024-05-10 14:46:14.223 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-10 14:46:14.224 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - - - 200 628 image/png 2.1201ms
+2024-05-10 14:46:14.278 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.0520ms
+2024-05-10 14:46:18.242 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-10 14:46:18.247 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-10 14:46:18.265 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 14:46:18.324 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 14:46:18.328 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 59.3539ms
+2024-05-10 14:46:18.329 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-10 14:46:18.330 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 200 0 - 87.8628ms
+2024-05-10 14:46:26.103 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/consume - -
+2024-05-10 14:46:26.105 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-10 14:46:26.109 +08:00 [INF] Route matched with {action = "Consume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Consume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 14:46:26.117 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 14:46:26.117 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.Consume (WebApplication1) in 7.4077ms
+2024-05-10 14:46:26.118 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-10 14:46:26.119 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/consume - - - 200 0 - 15.9007ms
+2024-05-10 14:49:08.255 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/consume - -
+2024-05-10 14:49:08.255 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-10 14:49:08.256 +08:00 [INF] Route matched with {action = "Consume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Consume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 14:49:08.259 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 14:49:08.260 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.Consume (WebApplication1) in 2.6534ms
+2024-05-10 14:49:08.260 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-10 14:49:08.261 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/consume - - - 200 0 - 6.0376ms
+2024-05-10 16:23:15.841 +08:00 [INF] Starting web application
+2024-05-10 16:23:15.961 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:23:15.963 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:23:16.730 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:23:16.769 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.9589ms
+2024-05-10 16:23:16.774 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:23:16.881 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 106.5500ms
+2024-05-10 16:23:16.888 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:23:16.888 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:23:16.888 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:23:16.898 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:23:16.898 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:23:16.898 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:23:16.899 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 10.7148ms
+2024-05-10 16:23:16.900 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 11.3866ms
+2024-05-10 16:23:16.901 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 12.3549ms
+2024-05-10 16:23:17.072 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:23:17.139 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.2503ms
+2024-05-10 16:23:23.727 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:23:23.732 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:23:23.748 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:23:23.799 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:23:23.804 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 51.2055ms
+2024-05-10 16:23:23.804 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:23:23.805 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 78.2578ms
+2024-05-10 16:23:28.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - -
+2024-05-10 16:23:28.947 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:23:28.950 +08:00 [INF] Route matched with {action = "ExchangeFanoutConsume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutConsume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:23:28.964 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-10 16:23:28.965 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1) in 13.6996ms
+2024-05-10 16:23:28.966 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:23:28.966 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - - - 200 0 text/plain;+charset=utf-8 27.6660ms
+2024-05-10 16:23:56.993 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:23:56.994 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:23:56.997 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:23:57.003 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:23:57.004 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 2.6883ms
+2024-05-10 16:23:57.005 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:23:57.006 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 13.3553ms
+2024-05-10 16:26:11.873 +08:00 [INF] Starting web application
+2024-05-10 16:26:11.995 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:26:11.997 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:26:12.664 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:26:12.707 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:26:12.708 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 45.0621ms
+2024-05-10 16:26:12.816 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 108.5859ms
+2024-05-10 16:26:12.828 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:26:12.828 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:26:12.828 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:26:12.837 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:26:12.842 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 14.0373ms
+2024-05-10 16:26:12.844 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:26:12.845 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:26:12.848 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 19.7642ms
+2024-05-10 16:26:12.848 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 19.8141ms
+2024-05-10 16:26:13.017 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:26:13.090 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.2786ms
+2024-05-10 16:26:17.130 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:26:17.135 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:26:17.151 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:26:17.201 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:26:17.205 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 50.1158ms
+2024-05-10 16:26:17.206 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:26:17.207 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 76.4568ms
+2024-05-10 16:30:50.001 +08:00 [INF] Starting web application
+2024-05-10 16:30:50.124 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:30:50.127 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:30:50.782 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:30:50.822 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:30:50.823 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 44.0315ms
+2024-05-10 16:30:50.932 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 110.0558ms
+2024-05-10 16:30:50.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:30:50.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:30:50.949 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:30:50.956 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:30:50.957 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:30:50.959 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 10.0340ms
+2024-05-10 16:30:50.961 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 16.3195ms
+2024-05-10 16:30:50.967 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:30:50.970 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 24.5892ms
+2024-05-10 16:30:51.156 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:30:51.231 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.9434ms
+2024-05-10 16:30:59.432 +08:00 [INF] Starting web application
+2024-05-10 16:30:59.551 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:30:59.553 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:30:59.711 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:30:59.750 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:30:59.752 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 41.8371ms
+2024-05-10 16:30:59.855 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 104.3464ms
+2024-05-10 16:30:59.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:30:59.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:30:59.863 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:30:59.882 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:30:59.882 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:30:59.882 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:30:59.885 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 21.3073ms
+2024-05-10 16:30:59.885 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 22.0350ms
+2024-05-10 16:30:59.887 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 23.7948ms
+2024-05-10 16:31:00.057 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:31:00.121 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.8930ms
+2024-05-10 16:31:05.902 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:31:05.906 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:31:05.922 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:31:05.979 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 53.0202ms
+2024-05-10 16:31:05.981 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:31:05.984 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+RabbitMQ.Client.Exceptions.OperationInterruptedException: The AMQP operation was interrupted: AMQP close-reason, initiated by Peer, code=406, text='PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'fanout_queue' in vhost '/': received 'true' but current is 'false'', classId=50, methodId=10
+   at RabbitMQ.Client.Impl.SimpleBlockingRpcContinuation.GetReply(TimeSpan timeout)
+   at RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean passive, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   at RabbitMQ.Client.Impl.ModelBase.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.QueueDeclare(String queue, Boolean durable, Boolean exclusive, Boolean autoDelete, IDictionary`2 arguments)
+   at WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg() in D:\project\barak_test\WebApplication1\WebApplication1\Controllers\MQController.cs:line 62
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-10 16:31:06.014 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 500 - text/plain;+charset=utf-8 112.0468ms
+2024-05-10 16:33:29.864 +08:00 [INF] Starting web application
+2024-05-10 16:33:29.984 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:33:29.986 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:33:30.296 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:33:30.333 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:33:30.334 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 39.2043ms
+2024-05-10 16:33:30.442 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 109.5408ms
+2024-05-10 16:33:30.452 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:33:30.452 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:33:30.452 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:33:30.462 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:33:30.462 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:33:30.464 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 12.6311ms
+2024-05-10 16:33:30.466 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 14.2326ms
+2024-05-10 16:33:30.468 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:33:30.470 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 17.8073ms
+2024-05-10 16:33:30.637 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:33:30.701 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.1907ms
+2024-05-10 16:33:34.713 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:33:34.718 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:33:34.734 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:33:34.796 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:33:34.800 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 62.432ms
+2024-05-10 16:33:34.801 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:33:34.802 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 88.1293ms
+2024-05-10 16:33:56.453 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - -
+2024-05-10 16:33:56.456 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:33:56.459 +08:00 [INF] Route matched with {action = "ExchangeFanoutConsume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutConsume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:33:56.470 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-10 16:33:56.471 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1) in 8.6301ms
+2024-05-10 16:33:56.471 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:33:56.472 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - - - 200 0 text/plain;+charset=utf-8 19.3472ms
+2024-05-10 16:34:22.299 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:34:22.300 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:34:22.303 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:34:22.309 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:34:22.310 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 3.922ms
+2024-05-10 16:34:22.311 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:34:22.311 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 11.8954ms
+2024-05-10 16:38:43.017 +08:00 [INF] Starting web application
+2024-05-10 16:38:43.135 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:38:43.137 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:38:43.324 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:38:43.361 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 38.7399ms
+2024-05-10 16:38:43.364 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:38:43.470 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 105.4176ms
+2024-05-10 16:38:43.477 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:38:43.477 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:38:43.477 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:38:43.495 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:38:43.495 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:38:43.495 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:38:43.496 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 19.6543ms
+2024-05-10 16:38:43.496 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 19.6364ms
+2024-05-10 16:38:43.497 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 19.6786ms
+2024-05-10 16:38:43.661 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:38:43.728 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1304ms
+2024-05-10 16:38:48.233 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:38:48.237 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:38:48.253 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:38:48.308 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:38:48.312 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 55.7838ms
+2024-05-10 16:38:48.313 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:38:48.314 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 81.2168ms
+2024-05-10 16:38:52.042 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - -
+2024-05-10 16:38:52.044 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:38:52.049 +08:00 [INF] Route matched with {action = "ExchangeFanoutConsume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutConsume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:38:52.058 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-10 16:38:52.059 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1) in 8.6263ms
+2024-05-10 16:38:52.060 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:38:52.060 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - - - 200 0 text/plain;+charset=utf-8 18.3358ms
+2024-05-10 16:39:00.061 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/simple/sendMsg - -
+2024-05-10 16:39:00.063 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SimpleSendMsg (WebApplication1)'
+2024-05-10 16:39:00.066 +08:00 [INF] Route matched with {action = "SimpleSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SimpleSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:39:00.072 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:39:00.073 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SimpleSendMsg (WebApplication1) in 4.463ms
+2024-05-10 16:39:00.075 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SimpleSendMsg (WebApplication1)'
+2024-05-10 16:39:00.076 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/simple/sendMsg - - - 200 0 - 14.3912ms
+2024-05-10 16:39:28.772 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:39:28.774 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:39:28.778 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:39:28.785 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:39:28.786 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.7125ms
+2024-05-10 16:39:28.787 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:39:28.788 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 15.2217ms
+2024-05-10 16:41:44.015 +08:00 [INF] Starting web application
+2024-05-10 16:41:44.134 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:41:44.136 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:41:44.807 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:41:44.844 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:41:44.845 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.2085ms
+2024-05-10 16:41:44.956 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 111.1991ms
+2024-05-10 16:41:44.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:41:44.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:41:44.968 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:41:44.977 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:41:44.977 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:41:44.979 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 11.8319ms
+2024-05-10 16:41:44.981 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 13.2663ms
+2024-05-10 16:41:44.983 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:41:44.985 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 17.1829ms
+2024-05-10 16:41:45.154 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:41:45.223 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.7193ms
+2024-05-10 16:41:48.689 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:41:48.694 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:41:48.711 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:41:48.769 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:41:48.774 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 58.6458ms
+2024-05-10 16:41:48.774 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:41:48.776 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 86.4182ms
+2024-05-10 16:42:02.951 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - -
+2024-05-10 16:42:02.953 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:42:02.956 +08:00 [INF] Route matched with {action = "ExchangeFanoutConsume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutConsume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:42:02.966 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-10 16:42:02.967 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1) in 9.7136ms
+2024-05-10 16:42:02.967 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:42:02.968 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - - - 200 0 text/plain;+charset=utf-8 16.7523ms
+2024-05-10 16:45:12.097 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:12.098 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:12.099 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:12.106 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:12.107 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.6186ms
+2024-05-10 16:45:12.108 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:12.108 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 11.7136ms
+2024-05-10 16:45:12.607 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:12.608 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:12.609 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:12.617 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:12.619 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 5.9118ms
+2024-05-10 16:45:12.619 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:12.620 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 12.3803ms
+2024-05-10 16:45:13.078 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:13.079 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:13.086 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:13.092 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:13.093 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.4223ms
+2024-05-10 16:45:13.094 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:13.095 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 16.7696ms
+2024-05-10 16:45:13.836 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:13.837 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:13.839 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:13.849 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:13.850 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 6.3289ms
+2024-05-10 16:45:13.851 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:13.852 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 15.6498ms
+2024-05-10 16:45:15.420 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:15.421 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:15.423 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:15.432 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:15.432 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 5.2091ms
+2024-05-10 16:45:15.436 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:15.437 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 16.7415ms
+2024-05-10 16:45:20.550 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:20.551 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:20.551 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:20.564 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:20.566 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 6.5937ms
+2024-05-10 16:45:20.566 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:20.567 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 17.4119ms
+2024-05-10 16:45:22.013 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:22.015 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:22.016 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:22.025 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:22.026 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 3.9386ms
+2024-05-10 16:45:22.027 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:22.027 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 13.9432ms
+2024-05-10 16:45:23.964 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:23.965 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:23.965 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:23.972 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:23.974 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.5662ms
+2024-05-10 16:45:23.974 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:23.975 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 10.6285ms
+2024-05-10 16:45:24.835 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:24.836 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:24.837 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:24.844 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:24.846 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.9764ms
+2024-05-10 16:45:24.846 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:24.847 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 12.1649ms
+2024-05-10 16:45:25.628 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:25.629 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:25.636 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:25.641 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:25.642 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 4.365ms
+2024-05-10 16:45:25.643 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:25.644 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 16.0958ms
+2024-05-10 16:45:40.611 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:40.612 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:40.613 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:40.622 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:40.624 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 5.9245ms
+2024-05-10 16:45:40.625 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:40.626 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 15.2337ms
+2024-05-10 16:45:44.364 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:44.367 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:44.369 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:44.378 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:44.378 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 3.9394ms
+2024-05-10 16:45:44.379 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:44.379 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 15.1543ms
+2024-05-10 16:45:49.572 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:49.573 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:49.577 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:49.586 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:49.588 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 5.5107ms
+2024-05-10 16:45:49.589 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:49.591 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 18.8084ms
+2024-05-10 16:45:55.348 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:45:55.349 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:55.351 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:45:55.361 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:45:55.364 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 8.0319ms
+2024-05-10 16:45:55.365 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:45:55.365 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 16.8350ms
+2024-05-10 16:46:31.769 +08:00 [INF] Starting web application
+2024-05-10 16:46:31.887 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:46:31.890 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:46:32.056 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:46:32.094 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.1533ms
+2024-05-10 16:46:32.096 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:46:32.203 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 106.9501ms
+2024-05-10 16:46:32.215 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:46:32.216 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:46:32.216 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:46:32.224 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:46:32.224 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:46:32.227 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 11.6846ms
+2024-05-10 16:46:32.229 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 13.8622ms
+2024-05-10 16:46:32.231 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:46:32.232 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 16.3732ms
+2024-05-10 16:46:32.395 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:46:32.462 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.7508ms
+2024-05-10 16:46:36.253 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:46:36.257 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:46:36.274 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:46:36.331 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:46:36.335 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 56.9552ms
+2024-05-10 16:46:36.336 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:46:36.337 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 83.9713ms
+2024-05-10 16:47:08.853 +08:00 [INF] Starting web application
+2024-05-10 16:47:08.971 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-10 16:47:08.973 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-10 16:47:09.153 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-10 16:47:09.189 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-10 16:47:09.189 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 38.0214ms
+2024-05-10 16:47:09.297 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 107.5017ms
+2024-05-10 16:47:09.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-10 16:47:09.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-10 16:47:09.305 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-10 16:47:09.315 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-10 16:47:09.315 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-10 16:47:09.316 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 10.7595ms
+2024-05-10 16:47:09.317 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 11.4475ms
+2024-05-10 16:47:09.320 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-10 16:47:09.322 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 16.3534ms
+2024-05-10 16:47:09.489 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-10 16:47:09.557 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.5798ms
+2024-05-10 16:47:13.112 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - -
+2024-05-10 16:47:13.116 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:47:13.132 +08:00 [INF] Route matched with {action = "ExchangeFanoutSendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutSendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:47:13.188 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-10 16:47:13.192 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1) in 56.3937ms
+2024-05-10 16:47:13.193 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutSendMsg (WebApplication1)'
+2024-05-10 16:47:13.194 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/sendMsg - - - 200 0 - 82.1019ms
+2024-05-10 16:47:16.845 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - -
+2024-05-10 16:47:16.846 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:47:16.849 +08:00 [INF] Route matched with {action = "ExchangeFanoutConsume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExchangeFanoutConsume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-10 16:47:16.857 +08:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-10 16:47:16.858 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1) in 8.7589ms
+2024-05-10 16:47:16.859 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.ExchangeFanoutConsume (WebApplication1)'
+2024-05-10 16:47:16.860 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/exchange/fanout/consume - - - 200 0 text/plain;+charset=utf-8 14.9213ms

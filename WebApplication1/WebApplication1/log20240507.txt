@@ -1,0 +1,501 @@
+2024-05-07 08:09:16.434 +08:00 [INF] Starting web application
+2024-05-07 08:09:16.557 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 08:09:16.560 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 08:09:17.786 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 08:09:17.823 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 08:09:17.823 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 39.8316ms
+2024-05-07 08:09:17.934 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 111.4913ms
+2024-05-07 08:09:17.948 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:09:17.948 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:09:17.948 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 08:09:17.959 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:09:17.963 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 14.4907ms
+2024-05-07 08:09:17.963 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:09:17.964 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:09:17.966 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 17.6050ms
+2024-05-07 08:09:17.966 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 17.6199ms
+2024-05-07 08:09:18.148 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 08:09:18.214 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.0232ms
+2024-05-07 08:09:22.671 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/get - -
+2024-05-07 08:09:22.675 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:09:22.691 +08:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 08:09:22.804 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 08:09:22.808 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Get (WebApplication1) in 112.0526ms
+2024-05-07 08:09:22.809 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:09:22.810 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/get - - - 200 0 - 138.5886ms
+2024-05-07 08:10:43.985 +08:00 [INF] Starting web application
+2024-05-07 08:10:44.106 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 08:10:44.109 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 08:10:45.453 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 08:10:45.491 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 08:10:45.492 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 39.8409ms
+2024-05-07 08:10:45.600 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 109.5110ms
+2024-05-07 08:10:45.609 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:10:45.609 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:10:45.609 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 08:10:45.630 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:10:45.630 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:10:45.635 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 25.4725ms
+2024-05-07 08:10:45.635 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 25.5974ms
+2024-05-07 08:10:45.636 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:10:45.681 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 71.5722ms
+2024-05-07 08:10:45.834 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 08:10:45.900 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.6903ms
+2024-05-07 08:10:50.023 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/get - -
+2024-05-07 08:10:50.027 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:10:50.043 +08:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 08:10:50.155 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 08:10:50.159 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Get (WebApplication1) in 112.7039ms
+2024-05-07 08:10:50.160 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:10:50.161 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/get - - - 200 0 - 138.1979ms
+2024-05-07 08:15:19.952 +08:00 [INF] Starting web application
+2024-05-07 08:15:20.092 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 08:15:20.095 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 08:15:21.138 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 08:15:21.177 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 08:15:21.177 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.8514ms
+2024-05-07 08:15:21.284 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 107.8000ms
+2024-05-07 08:15:21.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:15:21.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 08:15:21.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:15:21.311 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:15:21.311 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:15:21.317 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 15.8566ms
+2024-05-07 08:15:21.325 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 23.5584ms
+2024-05-07 08:15:21.331 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:15:21.333 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 31.7385ms
+2024-05-07 08:15:21.491 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 08:15:21.565 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.7166ms
+2024-05-07 08:15:25.000 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/get - -
+2024-05-07 08:15:25.004 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:15:25.020 +08:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 08:15:25.135 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 08:15:25.139 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Get (WebApplication1) in 114.8215ms
+2024-05-07 08:15:25.144 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:15:25.145 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/get - - - 200 0 - 144.3175ms
+2024-05-07 08:18:06.669 +08:00 [INF] Starting web application
+2024-05-07 08:18:06.787 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 08:18:06.789 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 08:18:07.938 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 08:18:07.976 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 08:18:07.977 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.2072ms
+2024-05-07 08:18:08.083 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 106.6796ms
+2024-05-07 08:18:08.104 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 08:18:08.104 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 08:18:08.104 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 08:18:08.119 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 08:18:08.119 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 08:18:08.126 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 21.6884ms
+2024-05-07 08:18:08.126 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 21.8335ms
+2024-05-07 08:18:08.132 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 08:18:08.134 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 29.4405ms
+2024-05-07 08:18:08.299 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 08:18:08.368 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.7526ms
+2024-05-07 08:18:13.090 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/get - -
+2024-05-07 08:18:13.093 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:18:13.109 +08:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 08:18:13.223 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 08:18:13.227 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Get (WebApplication1) in 114.7326ms
+2024-05-07 08:18:13.228 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 08:18:13.228 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/get - - - 200 0 - 138.7490ms
+2024-05-07 09:33:41.323 +08:00 [INF] Starting web application
+2024-05-07 09:33:41.444 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 09:33:41.446 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 09:33:42.280 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 09:33:42.332 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 09:33:42.332 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 53.4109ms
+2024-05-07 09:33:42.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 108.6785ms
+2024-05-07 09:33:42.455 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 09:33:42.455 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 09:33:42.455 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 09:33:42.473 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 09:33:42.473 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 09:33:42.473 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 09:33:42.475 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 20.1119ms
+2024-05-07 09:33:42.475 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 20.1320ms
+2024-05-07 09:33:42.476 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 20.2662ms
+2024-05-07 09:33:42.643 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 09:33:42.710 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.7021ms
+2024-05-07 09:33:46.574 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/get - -
+2024-05-07 09:33:46.577 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 09:33:46.593 +08:00 [INF] Route matched with {action = "Get", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 09:33:46.711 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 09:33:46.715 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Get (WebApplication1) in 118.1531ms
+2024-05-07 09:33:46.716 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Get (WebApplication1)'
+2024-05-07 09:33:46.717 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/get - - - 200 0 - 143.1285ms
+2024-05-07 09:49:20.466 +08:00 [INF] Starting web application
+2024-05-07 09:49:20.900 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 09:49:20.917 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 09:49:22.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 09:49:22.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 09:49:22.801 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 41.6373ms
+2024-05-07 09:49:22.928 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 127.9788ms
+2024-05-07 09:49:22.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 09:49:22.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 09:49:22.939 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 09:49:22.948 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 09:49:22.948 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 09:49:22.948 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 09:49:22.949 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 9.3621ms
+2024-05-07 09:49:22.949 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 9.8399ms
+2024-05-07 09:49:22.950 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 10.5616ms
+2024-05-07 09:49:23.151 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 09:49:23.222 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.3989ms
+2024-05-07 09:49:29.375 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/set - -
+2024-05-07 09:49:29.381 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.Set (WebApplication1)'
+2024-05-07 09:49:29.410 +08:00 [INF] Route matched with {action = "Set", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Set() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 09:49:29.698 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 09:49:29.838 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.Set (WebApplication1) in 419.2739ms
+2024-05-07 09:49:29.842 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.Set (WebApplication1)'
+2024-05-07 09:49:29.844 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/set - - - 200 0 - 468.6170ms
+2024-05-07 14:31:27.115 +08:00 [INF] Starting web application
+2024-05-07 14:31:27.307 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 14:31:27.310 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 14:31:28.635 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 14:31:28.675 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 14:31:28.676 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 43.0646ms
+2024-05-07 14:31:28.790 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 115.1334ms
+2024-05-07 14:31:28.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 14:31:28.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 14:31:28.800 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 14:31:28.823 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 14:31:28.823 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 14:31:28.823 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 14:31:28.826 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 25.6916ms
+2024-05-07 14:31:28.826 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 26.1130ms
+2024-05-07 14:31:28.827 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 27.2052ms
+2024-05-07 14:31:29.019 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 14:31:29.086 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.8195ms
+2024-05-07 14:31:33.504 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/list - -
+2024-05-07 14:31:33.509 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:31:33.526 +08:00 [INF] Route matched with {action = "List", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 14:31:33.771 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.List (WebApplication1) in 238.6538ms
+2024-05-07 14:31:33.774 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:31:33.780 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: A null value is not valid in this context
+   at StackExchange.Redis.RedisValue.AssertNotNull() in /_/src/StackExchange.Redis/RedisValue.cs:line 308
+   at StackExchange.Redis.Message.CommandKeyValuesMessage..ctor(Int32 db, CommandFlags flags, RedisCommand command, RedisKey& key, RedisValue[] values) in /_/src/StackExchange.Redis/Message.cs:line 1050
+   at StackExchange.Redis.Message.Create(Int32 db, CommandFlags flags, RedisCommand command, RedisKey& key, RedisValue[] values) in /_/src/StackExchange.Redis/Message.cs:line 426
+   at StackExchange.Redis.RedisDatabase.ListLeftPush(RedisKey key, RedisValue[] values, When when, CommandFlags flags) in /_/src/StackExchange.Redis/RedisDatabase.cs:line 1182
+   at WebApplication1.Controllers.RedisController.List() in D:\project\barak_test\WebApplication1\WebApplication1\Controllers\RedisController.cs:line 59
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-07 14:31:33.809 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/list - - - 500 - text/plain;+charset=utf-8 304.7061ms
+2024-05-07 14:33:24.674 +08:00 [INF] Starting web application
+2024-05-07 14:33:24.817 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 14:33:24.820 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 14:33:25.871 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 14:33:25.910 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 14:33:25.911 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 41.2706ms
+2024-05-07 14:33:26.019 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 108.4797ms
+2024-05-07 14:33:26.036 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 14:33:26.037 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 14:33:26.037 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 14:33:26.048 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 14:33:26.053 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 16.7005ms
+2024-05-07 14:33:26.053 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 14:33:26.055 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 14:33:26.057 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 20.1979ms
+2024-05-07 14:33:26.057 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 20.3846ms
+2024-05-07 14:33:26.265 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 14:33:26.358 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 92.8203ms
+2024-05-07 14:33:29.866 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/list - -
+2024-05-07 14:33:29.871 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:33:29.888 +08:00 [INF] Route matched with {action = "List", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 14:33:30.004 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 14:33:30.009 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.List (WebApplication1) in 115.7809ms
+2024-05-07 14:33:30.010 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:33:30.011 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/list - - - 200 0 - 144.8977ms
+2024-05-07 14:43:09.697 +08:00 [INF] Starting web application
+2024-05-07 14:43:09.825 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 14:43:09.828 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 14:43:11.041 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 14:43:11.080 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 14:43:11.081 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 41.4603ms
+2024-05-07 14:43:11.243 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 162.8370ms
+2024-05-07 14:43:11.264 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 14:43:11.264 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 14:43:11.264 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 14:43:11.291 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 14:43:11.291 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 14:43:11.291 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 14:43:11.295 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 31.3941ms
+2024-05-07 14:43:11.295 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 31.1456ms
+2024-05-07 14:43:11.295 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 31.1605ms
+2024-05-07 14:43:11.473 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 14:43:11.541 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.5285ms
+2024-05-07 14:43:15.289 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/list - -
+2024-05-07 14:43:15.294 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:43:15.311 +08:00 [INF] Route matched with {action = "List", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] List() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 14:43:15.429 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 14:43:15.433 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.List (WebApplication1) in 117.8441ms
+2024-05-07 14:43:15.435 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.List (WebApplication1)'
+2024-05-07 14:43:15.436 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/list - - - 200 0 - 146.3016ms
+2024-05-07 14:48:36.147 +08:00 [INF] Starting web application
+2024-05-07 14:48:36.281 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 14:48:36.284 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 14:48:37.149 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 14:48:37.190 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 43.1247ms
+2024-05-07 14:48:37.197 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 14:48:37.311 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 113.8400ms
+2024-05-07 14:48:37.322 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 14:48:37.322 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 14:48:37.322 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 14:48:37.336 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 14:48:37.338 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 14:48:37.345 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 22.6670ms
+2024-05-07 14:48:37.347 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 24.8810ms
+2024-05-07 14:48:37.354 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 14:48:37.355 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 32.9218ms
+2024-05-07 14:48:37.550 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 14:48:37.616 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.0296ms
+2024-05-07 14:48:42.903 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Redis/zset - -
+2024-05-07 14:48:42.908 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.RedisController.ZSet (WebApplication1)'
+2024-05-07 14:48:42.924 +08:00 [INF] Route matched with {action = "ZSet", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ZSet() on controller WebApplication1.Controllers.RedisController (WebApplication1).
+2024-05-07 14:48:43.046 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 14:48:43.050 +08:00 [INF] Executed action WebApplication1.Controllers.RedisController.ZSet (WebApplication1) in 121.8421ms
+2024-05-07 14:48:43.051 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.RedisController.ZSet (WebApplication1)'
+2024-05-07 14:48:43.052 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Redis/zset - - - 200 0 - 148.8275ms
+2024-05-07 16:47:59.819 +08:00 [INF] Starting web application
+2024-05-07 16:48:00.097 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 16:48:00.101 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 16:48:02.084 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 16:48:02.151 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 70.5678ms
+2024-05-07 16:48:02.153 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 16:48:02.306 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 152.9451ms
+2024-05-07 16:48:02.335 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 16:48:02.335 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 16:48:02.335 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 16:48:02.370 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 16:48:02.373 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 37.7081ms
+2024-05-07 16:48:02.375 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 16:48:02.377 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 41.3563ms
+2024-05-07 16:48:02.385 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 16:48:02.386 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 50.9772ms
+2024-05-07 16:48:02.750 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 16:48:02.840 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.9838ms
+2024-05-07 16:48:08.259 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-07 16:48:08.263 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:48:08.287 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 16:48:12.391 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 4099.4662ms
+2024-05-07 16:48:12.394 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:48:12.398 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating λ:RabbitMQ.Client.IConnection.
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.AggregateException: One or more errors occurred. (Connection failed)
+ ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at RabbitMQ.Client.Impl.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingIPv4(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan timeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.Framing.Impl.IProtocolExtensions.CreateFrameHandler(IProtocol protocol, AmqpTcpEndpoint endpoint, Func`2 socketFactory, TimeSpan connectionTimeout, TimeSpan readTimeout, TimeSpan writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at WebApplication1.ContextConfiguration.RabbitMQRegister.<>c.<RegisterRabbitMQClient>b__0_0(IComponentContext c) in D:\project\barak_test\WebApplication1\WebApplication1\ContextConfiguration\RabbitMQRegister.cs:line 20
+   at Autofac.RegistrationExtensions.<>c__DisplayClass41_0`1.<Register>b__0(IComponentContext c, IEnumerable`1 p)
+   at Autofac.Builder.RegistrationBuilder.<>c__DisplayClass0_0`1.<ForDelegate>b__0(IComponentContext c, IEnumerable`1 p)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method346(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-05-07 16:48:12.449 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 500 - text/plain;+charset=utf-8 4189.5538ms
+2024-05-07 16:50:24.286 +08:00 [INF] Starting web application
+2024-05-07 16:50:24.464 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 16:50:24.468 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 16:50:25.702 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 16:50:25.766 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 66.0042ms
+2024-05-07 16:50:25.768 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 16:50:25.903 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 135.1208ms
+2024-05-07 16:50:26.042 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 16:50:26.051 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 16:50:26.053 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 10.3868ms
+2024-05-07 16:50:26.057 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 16:50:26.057 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 16:50:26.069 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 16:50:26.071 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 16:50:26.073 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 15.5271ms
+2024-05-07 16:50:26.073 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 15.5522ms
+2024-05-07 16:50:26.321 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 16:50:26.417 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.1212ms
+2024-05-07 16:50:30.848 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-07 16:50:30.856 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:50:30.888 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 16:50:31.250 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 16:50:31.256 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 362.2653ms
+2024-05-07 16:50:31.258 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:50:31.259 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 200 0 - 411.1435ms
+2024-05-07 16:53:05.958 +08:00 [INF] Starting web application
+2024-05-07 16:53:06.124 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 16:53:06.128 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 16:53:08.473 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 16:53:08.530 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 16:53:08.530 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 62.3303ms
+2024-05-07 16:53:08.769 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 238.6262ms
+2024-05-07 16:53:08.805 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 16:53:08.805 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 16:53:08.805 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 16:53:08.826 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 16:53:08.835 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 30.2386ms
+2024-05-07 16:53:08.839 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 16:53:08.842 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 37.1569ms
+2024-05-07 16:53:08.859 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 16:53:08.860 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 55.5525ms
+2024-05-07 16:53:09.126 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 16:53:09.231 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.3598ms
+2024-05-07 16:53:14.932 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-07 16:53:14.936 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:53:14.958 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 16:53:15.262 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 16:53:15.269 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 304.3485ms
+2024-05-07 16:53:15.271 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 16:53:15.274 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 200 0 - 342.3214ms
+2024-05-07 17:10:19.311 +08:00 [INF] Starting web application
+2024-05-07 17:10:19.483 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 17:10:19.486 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 17:10:21.436 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 17:10:21.505 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 70.7538ms
+2024-05-07 17:10:21.506 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 17:10:21.715 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 208.4750ms
+2024-05-07 17:10:21.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 17:10:21.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 17:10:21.761 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 17:10:21.793 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 17:10:21.793 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 17:10:21.796 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 34.7279ms
+2024-05-07 17:10:21.804 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 42.6477ms
+2024-05-07 17:10:21.811 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 17:10:21.813 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 51.4849ms
+2024-05-07 17:10:22.121 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 17:10:22.232 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.7579ms
+2024-05-07 17:10:25.550 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-07 17:10:25.560 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 17:10:25.586 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 17:10:26.023 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 17:10:26.030 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 438.3198ms
+2024-05-07 17:10:26.031 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 17:10:26.032 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 200 0 - 482.4991ms
+2024-05-07 17:19:16.317 +08:00 [INF] Starting web application
+2024-05-07 17:19:16.560 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 17:19:16.563 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 17:19:17.899 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 17:19:17.991 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 93.8899ms
+2024-05-07 17:19:18.001 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 17:19:18.154 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 153.4752ms
+2024-05-07 17:19:18.203 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 17:19:18.203 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 17:19:18.203 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 17:19:18.271 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 17:19:18.276 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 73.4197ms
+2024-05-07 17:19:18.285 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 17:19:18.286 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 83.5562ms
+2024-05-07 17:19:18.304 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 17:19:18.305 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 102.0570ms
+2024-05-07 17:19:18.616 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 17:19:18.748 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.7066ms
+2024-05-07 17:19:23.407 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/consume - -
+2024-05-07 17:19:23.412 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:19:23.430 +08:00 [INF] Route matched with {action = "Consume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Consume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 17:19:23.530 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 17:19:23.561 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.Consume (WebApplication1) in 126.4959ms
+2024-05-07 17:19:23.562 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:19:23.563 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/consume - - - 200 0 - 155.7981ms
+2024-05-07 17:19:37.681 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/consume - -
+2024-05-07 17:19:37.683 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:19:37.684 +08:00 [INF] Route matched with {action = "Consume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Consume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 17:19:37.694 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 17:19:37.696 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.Consume (WebApplication1) in 10.5247ms
+2024-05-07 17:19:37.699 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:19:37.699 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/consume - - - 200 0 - 18.3224ms
+2024-05-07 17:30:45.848 +08:00 [INF] Starting web application
+2024-05-07 17:30:46.043 +08:00 [INF] Now listening on: https://localhost:7289
+2024-05-07 17:30:46.046 +08:00 [INF] Now listening on: http://localhost:5017
+2024-05-07 17:30:47.788 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-05-07 17:30:47.843 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-05-07 17:30:47.843 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 56.4289ms
+2024-05-07 17:30:47.986 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 143.9200ms
+2024-05-07 17:30:48.005 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-05-07 17:30:48.005 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-05-07 17:30:48.005 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-05-07 17:30:48.030 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 17:30:48.037 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 31.7926ms
+2024-05-07 17:30:48.046 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 17:30:48.048 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 42.7423ms
+2024-05-07 17:30:48.082 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 17:30:48.084 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 78.2993ms
+2024-05-07 17:30:48.680 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-05-07 17:30:48.822 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.2828ms
+2024-05-07 17:31:12.870 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/sendMsg - -
+2024-05-07 17:31:12.874 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 17:31:12.895 +08:00 [INF] Route matched with {action = "SendMsg", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SendMsg() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 17:31:12.979 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 17:31:12.984 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.SendMsg (WebApplication1) in 84.1684ms
+2024-05-07 17:31:12.985 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.SendMsg (WebApplication1)'
+2024-05-07 17:31:12.985 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/sendMsg - - - 200 0 - 115.4800ms
+2024-05-07 17:31:17.340 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/MQ/consume - -
+2024-05-07 17:31:17.342 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:31:17.346 +08:00 [INF] Route matched with {action = "Consume", controller = "MQ"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Consume() on controller WebApplication1.Controllers.MQController (WebApplication1).
+2024-05-07 17:31:17.356 +08:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-07 17:31:17.357 +08:00 [INF] Executed action WebApplication1.Controllers.MQController.Consume (WebApplication1) in 9.8982ms
+2024-05-07 17:31:17.357 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.MQController.Consume (WebApplication1)'
+2024-05-07 17:31:17.358 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/MQ/consume - - - 200 0 - 18.1306ms

@@ -1,0 +1,374 @@
+2024-06-03 08:12:33.235 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 08:18:03.608 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 08:44:54.286 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:07:02.330 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:08:41.637 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:10:22.942 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:13:13.362 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:16:22.578 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:23:32.880 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:27:05.097 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:27:05.482 +08:00 [INF] Now listening on: https://localhost:7289
+2024-06-03 09:27:05.483 +08:00 [INF] Now listening on: http://localhost:5017
+2024-06-03 09:27:05.490 +08:00 [INF] Starting Hangfire Server using job storage: 'Server: 127.0.0.1@school'
+2024-06-03 09:27:05.490 +08:00 [INF] Using the following options for SQL Server job storage:
+2024-06-03 09:27:05.491 +08:00 [INF]     Queue poll interval: 00:00:15.
+2024-06-03 09:27:05.491 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-06-03 09:27:05.522 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 successfully announced in 22.4658 ms
+2024-06-03 09:27:05.526 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-06-03 09:27:05.534 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 all the dispatchers started
+2024-06-03 09:27:11.067 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-06-03 09:27:11.107 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-06-03 09:27:11.108 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 40.7245ms
+2024-06-03 09:27:11.226 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 118.5874ms
+2024-06-03 09:27:11.239 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-06-03 09:27:11.239 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-06-03 09:27:11.239 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-06-03 09:27:11.261 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-03 09:27:11.261 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-03 09:27:11.263 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 23.7887ms
+2024-06-03 09:27:11.263 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 23.8752ms
+2024-06-03 09:27:11.280 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-03 09:27:11.281 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 41.9266ms
+2024-06-03 09:27:11.437 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-06-03 09:27:11.451 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - -
+2024-06-03 09:27:11.452 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-03 09:27:11.453 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - - - 200 628 image/png 1.9687ms
+2024-06-03 09:27:11.509 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.2501ms
+2024-06-03 09:27:52.209 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire - -
+2024-06-03 09:27:52.227 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.342 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.343 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire - - - 200 - text/html 134.1951ms
+2024-06-03 09:27:52.358 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/css-dark181201325274878 - -
+2024-06-03 09:27:52.358 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/js181201753219992 - -
+2024-06-03 09:27:52.358 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/css18120792098717 - -
+2024-06-03 09:27:52.360 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.360 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.360 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.385 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.386 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/css-dark181201325274878 - - - 200 - text/css 27.3824ms
+2024-06-03 09:27:52.401 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.402 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/css18120792098717 - - - 200 - text/css 44.0771ms
+2024-06-03 09:27:52.406 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.409 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/js181201753219992 - - - 200 - application/javascript 50.6442ms
+2024-06-03 09:27:52.444 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/fonts/glyphicons-halflings-regular/woff2 - -
+2024-06-03 09:27:52.445 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.447 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:52.448 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/fonts/glyphicons-halflings-regular/woff2 - - - 200 - font/woff2 3.7286ms
+2024-06-03 09:27:54.491 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:27:54.491 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:54.517 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:54.518 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 27.1340ms
+2024-06-03 09:27:56.528 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:27:56.529 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:56.534 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:56.535 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 6.9902ms
+2024-06-03 09:27:58.539 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:27:58.539 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:27:58.543 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:27:58.544 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 5.3871ms
+2024-06-03 09:28:00.551 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:28:00.552 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:00.556 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:00.557 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 5.3711ms
+2024-06-03 09:28:02.561 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:28:02.562 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:02.630 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:02.631 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 69.4160ms
+2024-06-03 09:28:04.640 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:28:04.641 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:04.646 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:04.653 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 12.8483ms
+2024-06-03 09:28:06.662 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258
+2024-06-03 09:28:06.662 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:06.666 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:06.667 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 258 - 200 - application/json 5.5644ms
+2024-06-03 09:28:06.869 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/recurring - -
+2024-06-03 09:28:06.870 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:06.883 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:06.886 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): Parameter '@rownum' must be defined. To use this as a variable, set 'Allow User Variables=true' in the connection string.
+   at MySqlConnector.Core.StatementPreparer.GetParameterIndex(String name) in /_/src/MySqlConnector/Core/StatementPreparer.cs:line 45
+   at MySqlConnector.Core.StatementPreparer.ParameterSqlParser.OnNamedParameter(Int32 index, Int32 length) in /_/src/MySqlConnector/Core/StatementPreparer.cs:line 74
+   at MySqlConnector.Core.SqlParser.Parse(String sql) in /_/src/MySqlConnector/Core/SqlParser.cs:line 197
+   at MySqlConnector.Core.StatementPreparer.ParseAndBindParameters(ByteBufferWriter writer) in /_/src/MySqlConnector/Core/StatementPreparer.cs:line 38
+   at MySqlConnector.Core.SingleCommandPayloadCreator.WriteCommand(IMySqlCommand command, ByteBufferWriter writer) in /_/src/MySqlConnector/Core/SingleCommandPayloadCreator.cs:line 209
+   at MySqlConnector.Core.SingleCommandPayloadCreator.WriteQueryCommand(CommandListPosition& commandListPosition, IDictionary`2 cachedProcedures, ByteBufferWriter writer) in /_/src/MySqlConnector/Core/SingleCommandPayloadCreator.cs:line 18
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 43
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 313
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior) in /_/src/MySqlConnector/MySqlCommand.cs:line 254
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in C:\projects\dapper\Dapper\SqlMapper.cs:line 1062
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in C:\projects\dapper\Dapper\SqlMapper.cs:line 1081
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in C:\projects\dapper\Dapper\SqlMapper.cs:line 723
+   at Hangfire.MySql.MySqlStorageConnection.<>c__DisplayClass17_0.<GetRangeFromSet>b__0(MySqlConnection connection)
+   at Hangfire.MySql.MySqlStorage.UseConnection[T](Func`2 func)
+   at Hangfire.MySql.MySqlStorageConnection.GetRangeFromSet(String key, Int32 startingFrom, Int32 endingAt)
+   at Hangfire.Storage.StorageConnectionExtensions.GetRecurringJobIds(JobStorageConnection connection, Int32 startingFrom, Int32 endingAt) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\StorageConnectionExtensions.cs:line 61
+   at Hangfire.Storage.StorageConnectionExtensions.GetRecurringJobs(JobStorageConnection connection, Int32 startingFrom, Int32 endingAt) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\StorageConnectionExtensions.cs:line 71
+   at Hangfire.Dashboard.Pages.RecurringJobsPage.Execute() in C:\projects\hangfire-525\src\Hangfire.Core\Dashboard\Pages\RecurringJobsPage.cshtml:line 27
+   at Hangfire.Dashboard.RazorPage.TransformText(String body) in C:\projects\hangfire-525\src\Hangfire.Core\Dashboard\RazorPage.cs:line 179
+   at Hangfire.Dashboard.RazorPage.ToString() in C:\projects\hangfire-525\src\Hangfire.Core\Dashboard\RazorPage.cs:line 103
+   at Hangfire.Dashboard.RazorPageDispatcher.Dispatch(DashboardContext context) in C:\projects\hangfire-525\src\Hangfire.Core\Dashboard\RazorPageDispatcher.cs:line 38
+   at Hangfire.Dashboard.AspNetCoreDashboardMiddleware.Invoke(HttpContext httpContext) in C:\projects\hangfire-525\src\Hangfire.AspNetCore\Dashboard\AspNetCoreDashboardMiddleware.cs:line 99
+   at Microsoft.AspNetCore.Builder.Extensions.UsePathBaseMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-06-03 09:28:06.918 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/recurring - - - 500 - text/html;+charset=utf-8 48.9936ms
+2024-06-03 09:28:06.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/favicon.ico - -
+2024-06-03 09:28:06.992 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/favicon.ico - - - 404 0 - 0.7244ms
+2024-06-03 09:28:34.026 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 caught stopping signal...
+2024-06-03 09:28:34.034 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 All dispatchers stopped
+2024-06-03 09:28:34.039 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 successfully reported itself as stopped in 3.1777 ms
+2024-06-03 09:28:34.040 +08:00 [INF] Server barak-t-pc-ml:31036:f394f492 has been stopped in total 11.674 ms
+2024-06-03 09:28:34.047 +08:00 [INF] Web application start..
+2024-06-03 09:28:41.165 +08:00 [INF] DB tables already exist. Exit install
+2024-06-03 09:28:41.392 +08:00 [INF] Now listening on: https://localhost:7289
+2024-06-03 09:28:41.393 +08:00 [INF] Now listening on: http://localhost:5017
+2024-06-03 09:28:41.399 +08:00 [INF] Starting Hangfire Server using job storage: 'Server: 127.0.0.1@school'
+2024-06-03 09:28:41.399 +08:00 [INF] Using the following options for SQL Server job storage:
+2024-06-03 09:28:41.400 +08:00 [INF]     Queue poll interval: 00:00:15.
+2024-06-03 09:28:41.400 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-06-03 09:28:41.416 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b successfully announced in 7.6241 ms
+2024-06-03 09:28:41.419 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-06-03 09:28:41.428 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b all the dispatchers started
+2024-06-03 09:28:42.372 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - -
+2024-06-03 09:28:42.411 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - - - 301 0 - 39.7729ms
+2024-06-03 09:28:42.418 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - -
+2024-06-03 09:28:42.533 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - - - 200 - text/html;charset=utf-8 115.4078ms
+2024-06-03 09:28:42.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - -
+2024-06-03 09:28:42.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - -
+2024-06-03 09:28:42.548 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - -
+2024-06-03 09:28:42.563 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-03 09:28:42.564 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - - - 200 143632 text/css 16.0155ms
+2024-06-03 09:28:42.565 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-03 09:28:42.568 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-03 09:28:42.568 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 19.3293ms
+2024-06-03 09:28:42.569 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 20.1190ms
+2024-06-03 09:28:42.785 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - -
+2024-06-03 09:28:42.852 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1281ms
+2024-06-03 09:28:46.322 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/recurring - -
+2024-06-03 09:28:46.345 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.422 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.423 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/recurring - - - 200 - text/html 101.1271ms
+2024-06-03 09:28:46.429 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/js181201437854296 - -
+2024-06-03 09:28:46.429 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/css-dark18120617122532 - -
+2024-06-03 09:28:46.430 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/css18120167930223 - -
+2024-06-03 09:28:46.431 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.432 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.433 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.437 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.439 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/css-dark18120617122532 - - - 200 - text/css 9.5596ms
+2024-06-03 09:28:46.442 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.442 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:46.444 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/css18120167930223 - - - 200 - text/css 13.6667ms
+2024-06-03 09:28:46.444 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/js181201437854296 - - - 200 - application/javascript 14.6040ms
+2024-06-03 09:28:48.477 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:48.477 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:48.501 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:48.502 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 25.1455ms
+2024-06-03 09:28:50.509 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:50.511 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:50.517 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:50.518 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.3357ms
+2024-06-03 09:28:52.536 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:52.537 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:52.543 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:52.544 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.2237ms
+2024-06-03 09:28:54.552 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:54.553 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:54.558 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:54.559 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 7.0462ms
+2024-06-03 09:28:56.568 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:56.569 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:56.575 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:56.576 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.0188ms
+2024-06-03 09:28:58.582 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:28:58.583 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:28:58.590 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:28:58.591 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.9315ms
+2024-06-03 09:29:00.604 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:29:00.605 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:00.611 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:00.612 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.0742ms
+2024-06-03 09:29:02.629 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167
+2024-06-03 09:29:02.631 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:02.636 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:02.637 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 167 - 200 - application/json 8.3401ms
+2024-06-03 09:29:03.061 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/jobs/details/1 - -
+2024-06-03 09:29:03.062 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:03.128 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:03.129 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/jobs/details/1 - - - 200 - text/html 68.0422ms
+2024-06-03 09:29:05.174 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:05.175 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:05.179 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:05.180 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.7148ms
+2024-06-03 09:29:07.188 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:07.189 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:07.194 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:07.195 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.0742ms
+2024-06-03 09:29:09.213 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:09.215 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:09.222 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:09.223 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 9.1667ms
+2024-06-03 09:29:11.230 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:11.231 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:11.237 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:11.238 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.7009ms
+2024-06-03 09:29:13.250 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:13.251 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:13.257 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:13.258 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.7421ms
+2024-06-03 09:29:15.262 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:15.263 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:15.269 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:15.270 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.9822ms
+2024-06-03 09:29:17.285 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:17.285 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:17.290 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:17.291 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.8279ms
+2024-06-03 09:29:17.355 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/jobs/succeeded - -
+2024-06-03 09:29:17.356 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:17.373 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:17.373 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/jobs/succeeded - - - 200 - text/html 18.2901ms
+2024-06-03 09:29:19.423 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:19.424 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:19.431 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:19.432 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.2379ms
+2024-06-03 09:29:21.451 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:21.452 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:21.459 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:21.460 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 9.0658ms
+2024-06-03 09:29:23.464 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:23.465 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:23.471 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:23.473 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.5958ms
+2024-06-03 09:29:24.182 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7289/hangfire/jobs/details/1 - -
+2024-06-03 09:29:24.185 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:24.192 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:24.193 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7289/hangfire/jobs/details/1 - - - 200 - text/html 11.5971ms
+2024-06-03 09:29:26.240 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:26.241 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:26.247 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:26.248 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.0809ms
+2024-06-03 09:29:28.251 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:28.252 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:28.256 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:28.257 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 6.0587ms
+2024-06-03 09:29:30.266 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:30.267 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:30.273 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:30.274 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.0938ms
+2024-06-03 09:29:32.289 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:32.289 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:32.296 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:32.297 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 8.2278ms
+2024-06-03 09:29:34.300 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:34.300 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:34.304 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:34.305 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 4.7952ms
+2024-06-03 09:29:36.319 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:36.320 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:36.328 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:36.329 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 10.2944ms
+2024-06-03 09:29:38.337 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:38.338 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:38.344 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:38.345 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.8720ms
+2024-06-03 09:29:40.357 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:40.358 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:40.365 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:40.366 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 9.5367ms
+2024-06-03 09:29:42.374 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:42.375 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:42.410 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:42.411 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 36.9820ms
+2024-06-03 09:29:44.423 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:44.424 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:44.428 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:44.429 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.2146ms
+2024-06-03 09:29:46.461 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:46.462 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:46.465 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:46.466 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.1090ms
+2024-06-03 09:29:48.474 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:48.475 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:48.480 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:48.481 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.5399ms
+2024-06-03 09:29:50.500 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:50.500 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:50.506 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:50.507 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 6.7144ms
+2024-06-03 09:29:52.511 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:52.511 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:52.515 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:52.515 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 4.8731ms
+2024-06-03 09:29:54.530 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:54.531 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:54.535 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:54.535 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.1060ms
+2024-06-03 09:29:56.570 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:56.571 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:56.576 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:56.577 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 6.0852ms
+2024-06-03 09:29:58.596 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:29:58.597 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:29:58.601 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:29:58.602 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.8950ms
+2024-06-03 09:30:00.607 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:00.608 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:00.611 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:00.612 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 4.9789ms
+2024-06-03 09:30:02.627 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:02.628 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:02.632 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:02.633 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 6.5302ms
+2024-06-03 09:30:04.652 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:04.653 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:04.656 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:04.657 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 4.9258ms
+2024-06-03 09:30:06.675 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:06.675 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:06.680 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:06.685 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 10.8372ms
+2024-06-03 09:30:08.690 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:08.691 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:08.695 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:08.696 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.7709ms
+2024-06-03 09:30:10.712 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:10.713 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:10.717 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:10.718 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 6.0150ms
+2024-06-03 09:30:12.726 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:12.726 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:12.731 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:12.732 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.8530ms
+2024-06-03 09:30:14.743 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:14.744 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:14.754 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:14.755 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 11.7719ms
+2024-06-03 09:30:16.764 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:16.765 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:16.770 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:16.771 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 7.4911ms
+2024-06-03 09:30:18.778 +08:00 [INF] Request starting HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392
+2024-06-03 09:30:18.779 +08:00 [INF] Executing endpoint '/hangfire/{**path}'
+2024-06-03 09:30:18.783 +08:00 [INF] Executed endpoint '/hangfire/{**path}'
+2024-06-03 09:30:18.784 +08:00 [INF] Request finished HTTP/2 POST https://localhost:7289/hangfire/stats application/x-www-form-urlencoded;+charset=UTF-8 392 - 200 - application/json 5.7303ms
+2024-06-03 09:30:19.113 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b caught stopping signal...
+2024-06-03 09:30:19.116 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b All dispatchers stopped
+2024-06-03 09:30:19.120 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b successfully reported itself as stopped in 2.0157 ms
+2024-06-03 09:30:19.120 +08:00 [INF] Server barak-t-pc-ml:29720:efcaee0b has been stopped in total 6.2964 ms
+2024-06-03 09:30:19.126 +08:00 [INF] Web application start..

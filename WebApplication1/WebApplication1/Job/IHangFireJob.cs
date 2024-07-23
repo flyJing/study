@@ -1,6 +1,6 @@
 namespace WebApplication1.Job;
 
-public interface IJob
+public interface IHangFireJob
 {
     Task ScheduleRecurringJob();
     

@@ -3,7 +3,7 @@ using Serilog;
 
 namespace WebApplication1.Job;
 
-public class Job: IJob
+public class HangFireJob: IHangFireJob
 {
     public Task ScheduleRecurringJob()
     {

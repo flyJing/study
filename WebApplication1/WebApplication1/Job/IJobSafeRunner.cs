@@ -22,7 +22,7 @@ public class JobSafeRunner : IJobSafeRunner
     {
         await using var newScope = _lifetimeScope.BeginLifetimeScope();
             
-        var job = (IJob)newScope.Resolve(jobType);
+        var job = (IHangFireJob)newScope.Resolve(jobType);
             
         using (LogContext.PushProperty("JobId", Guid.NewGuid()))
         {

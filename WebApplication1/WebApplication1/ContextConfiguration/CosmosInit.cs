@@ -25,13 +25,13 @@ public class CosmosInit: IStartable
                 
         var cosmosClient = new CosmosClient(endpointUri, primaryKey, options);
         Database database = await cosmosClient.CreateDatabaseIfNotExistsAsync("test_barak");
-        var a = typeof(ICosmosEntity).Assembly.GetTypes()
+        var cosmosEntityList = typeof(ICosmosEntity).Assembly.GetTypes()
             .Where(x=>x.IsAssignableTo(typeof(ICosmosEntity)))
             .Where(x=>x.IsClass && !x.IsAbstract)
             .ToList();
-        foreach (var b in a)
+        foreach (var cosmosEntity in cosmosEntityList)
         {
-            Container container = await database.CreateContainerIfNotExistsAsync(b.Name, "/Id");
+            await database.CreateContainerIfNotExistsAsync(cosmosEntity.Name, "/Id");
             // var containerProperties = await container.ReadContainerAsync();
             //
             // IndexingPolicy indexingPolicy = new IndexingPolicy

@@ -75,8 +75,11 @@ public class AutoFacBusiness : Module
             .As<ISchema>()
             .InstancePerLifetimeScope();
         
-        builder.RegisterType<CosmosInit>().As<IStartable>().SingleInstance();
-        
+        builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly())
+            .Where(x => typeof(IStartable).IsAssignableFrom(x))
+            .As<IStartable>()
+            .SingleInstance();
+
         // Register clients and external services
         builder.RegisterElasticClient();
         builder.RegisterRedisClient();

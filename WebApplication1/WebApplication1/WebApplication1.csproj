@@ -13,6 +13,7 @@
         <PackageReference Include="AutoMapper" Version="13.0.1" />
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
         <PackageReference Include="Azure.Identity" Version="1.12.0" />
+        <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.18.1" />
         <PackageReference Include="dbup-mysql" Version="5.0.44" />
         <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
         <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
@@ -28,8 +29,10 @@
         <PackageReference Include="Mediator.Net.Autofac" Version="4.8.0" />
         <PackageReference Include="Mediator.Net.MicrosoftDependencyInjection" Version="4.8.0" />
         <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.42.0-preview.0" />
+        <PackageReference Include="Microsoft.Azure.ServiceBus" Version="5.2.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Cosmos" Version="9.0.0-preview.6.24327.4" />
         <PackageReference Include="NEST" Version="7.17.5" />
+        <PackageReference Include="Polly" Version="8.4.1" />
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0-preview.1" />
         <PackageReference Include="Quartz.AspNetCore" Version="3.11.0" />
         <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.11.0" />

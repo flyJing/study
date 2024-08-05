@@ -83,4 +83,12 @@ public class RedisController: ControllerBase
         }
         return Ok();
     }
+    
+    [HttpGet, Route("error/test")]
+    public async Task<IActionResult> ErrorTest()
+    {
+        var database = _redis.GetDatabase();
+        var result = await database.ExecuteAsync("INVALID_COMMAND");
+        return Ok();
+    }
 }

@@ -13,6 +13,7 @@ using WebApplication1.AutoFac;
 using WebApplication1.ContextConfiguration;
 using WebApplication1.GraphQL.Schema;
 using WebApplication1.Job;
+using WebApplication1.Middleware;
 
 namespace WebApplication1
 {
@@ -128,6 +129,8 @@ namespace WebApplication1
             });
 
             app.AddJob();
+            app.UseMiddleware<RedisExceptionMiddleware>();
+            app.UseMiddleware<ExceptionMiddleware>();
         }
         
         public void ConfigureContainer(ContainerBuilder containerBuilder)

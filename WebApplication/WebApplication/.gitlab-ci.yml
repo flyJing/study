@@ -1,24 +1,33 @@
 stages:
   - build
-  - test
+#  - test
   - deploy
 
 variables:
-  PROJECT_NAME: "Study"
+  PROJECT_NAME: "WebApplication"
   IMAGE_NAME: "myapp:${CI_COMMIT_SHA}"
 
 build:
   stage: build
   image: mcr.microsoft.com/dotnet/sdk:8.0
   script:
-    - dotnet build "$PROJECT_NAME/$PROJECT_NAME.csproj" -c Release -o out
-    - docker build -t $IMAGE_NAME .
-
-test:
-  stage: test
-  image: mcr.microsoft.com/dotnet/sdk:8.0
-  script:
-    - dotnet test "$PROJECT_NAME.Tests/$PROJECT_NAME.Tests.csproj" --no-build --verbosity normal
+    - dotnet build "$PROJECT_NAME.csproj" -c Release -o out
+    - docker build --no-restore
+    - dotnet publish "WebApplication.csproj" -c Release -o /app/publish
+  artifacts:
+    paths:
+      - $publish_path
+    expire_in: '1 hrs'
+    tags:
+      - dotnet
+    only:
+      - develop
+      - master
+#test:
+#  stage: test
+#  image: mcr.microsoft.com/dotnet/sdk:8.0
+#  script:
+#    - dotnet test "$PROJECT_NAME.Tests/$PROJECT_NAME.Tests.csproj" --no-build --verbosity normal
 
 deploy:
   stage: deploy

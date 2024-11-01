@@ -10,15 +10,17 @@ public static class RedisRegister
     {
         builder.Register(c =>
         {
+            var configuration = c.Resolve<IConfiguration>();
+            var redisConnectUrl = configuration["Redis:EndPoints"];
             var configurationOptions = new ConfigurationOptions
             {
-                EndPoints = { "localhost:6379" },
+                EndPoints = { redisConnectUrl },
                 ConnectTimeout = 5000, // 连接超时时间（毫秒），
                 AbortOnConnectFail = false, // 连接失败时不终止
                 ReconnectRetryPolicy = new ExponentialRetry(5000), // 指数重试策略
                 ConnectRetry = 3 // 重试次数
             };
-            var conn = ConnectionMultiplexer.Connect("localhost:6379");
+            var conn = ConnectionMultiplexer.Connect(redisConnectUrl);
             conn.ConnectionFailed += (sender, args) =>
             {
                 // 记录连接失败日志

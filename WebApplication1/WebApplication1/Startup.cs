@@ -1,7 +1,5 @@
-using System.Reflection;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using DbUp;
 using GraphQL;
 using GraphQL.Types;
 using Hangfire;
@@ -19,7 +17,7 @@ namespace WebApplication1
 {
     public class Startup
     {
-        public IConfiguration Configuration { get; }
+        private  IConfiguration Configuration { get; }
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -32,7 +30,7 @@ namespace WebApplication1
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Information()
                 .WriteTo.Console()
-                .WriteTo.Seq("http://localhost:5341/")
+                .WriteTo.Seq(Configuration["Serilog:Url"])
                 .CreateLogger();
 
             // Use Autofac as the DI container
@@ -46,7 +44,7 @@ namespace WebApplication1
                 .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
                 .UseSimpleAssemblyNameTypeSerializer()
                 .UseRecommendedSerializerSettings()
-                .UseStorage(new MySqlStorage("Server=127.0.0.1;Database=school;User Id=root;Password=123456; Allow User Variables=true", new MySqlStorageOptions())));
+                .UseStorage(new MySqlStorage(Configuration["MysqlAddress:Url"], new MySqlStorageOptions())));
 
             // Add Hangfire server
             services.AddHangfireServer();
@@ -56,9 +54,9 @@ namespace WebApplication1
             // Cosmos DB context configuration
             services.AddDbContext<CosmosDbContext>(options =>
                 options.UseCosmos(
-                    "https://localhost:8081",
-                    "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==",
-                    "test_barak"));
+                    Configuration["CosmosDb:Endpoint"],
+                    Configuration["CosmosDb:AccountKey"],
+                    Configuration["CosmosDb:DatabaseName"]));
 
             // Add services to the container
             services.AddControllers();
@@ -87,31 +85,10 @@ namespace WebApplication1
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             // Configure the HTTP request pipeline
-            if (env.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            // DbUp configuration
-            var connectionString = "Server=127.0.0.1; Database=school; Uid=root; Pwd=123456;";
-            var upgrader = DeployChanges.To
-                .MySqlDatabase(connectionString)
-                .WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly())
-                .LogToConsole()
-                .Build();
-            var result = upgrader.PerformUpgrade();
-            if (result.Successful)
-            {
-                Console.WriteLine("Database migration successful!");
-            }
-            else
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(result.Error);
-                Console.ResetColor();
-            }
-
+            
+            app.UseSwagger();
+            app.UseSwaggerUI();
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();

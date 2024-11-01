@@ -10,12 +10,13 @@ public static class RabbitMQRegister
     {
         builder.Register(c =>
         {
+            var configuration = c.Resolve<IConfiguration>();
             var factory = new ConnectionFactory
             {
-                UserName = "guest",
-                Password = "guest",
-                HostName = "localhost",
-                Port = 5673
+                UserName = configuration["RabbitMQ:UserName"],
+                Password = configuration["RabbitMQ:Password"],
+                HostName = configuration["RabbitMQ:Host"],
+                Port = int.Parse(configuration["RabbitMQ:Port"])
             };
             return  factory.CreateConnection();
         }).As<IConnection>().SingleInstance();

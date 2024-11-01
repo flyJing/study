@@ -16,8 +16,9 @@ public class DbUpRunner: IStartable
 
     public void Start()
     {
-        var connectionString = _configuration["DbupConnectMysqlAddress:Url"];
+        var connectionString = _configuration["MysqlAddress:Url"];
 
+        EnsureDatabase.For.MySqlDatabase(connectionString);
         var upgrader =
             DeployChanges.To
                 .MySqlDatabase(connectionString)

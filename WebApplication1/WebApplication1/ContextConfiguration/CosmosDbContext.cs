@@ -1,5 +1,3 @@
-using Autofac;
-using Azure.Identity;
 using Microsoft.Azure.Cosmos;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Cosmos;
@@ -10,17 +8,18 @@ namespace WebApplication1.ContextConfiguration;
 public  class CosmosDbContext: DbContext
 {
     public DbSet<CosmosUser> MyEntities { get; set; }
+    private readonly IConfiguration _configuration;
     
-    public CosmosDbContext(DbContextOptions<CosmosDbContext> options)
+    public CosmosDbContext(DbContextOptions<CosmosDbContext> options, IConfiguration configuration)
         : base(options)
     {
+        _configuration = configuration;
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        var primaryKey =
-            "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
-        var endpointUri = "https://localhost:8081";
+        var primaryKey = _configuration["CosmosDb:AccountKey"];
+        var endpointUri = _configuration["CosmosDb:Endpoint"];
 
         optionsBuilder.UseCosmos(
             endpointUri,

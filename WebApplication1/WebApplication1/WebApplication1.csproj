@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -43,13 +44,19 @@
         <PackageReference Include="Shouldly" Version="4.2.1" />
         <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-        <PackageReference Include="xunit" Version="2.9.0" />
+        <PackageReference Include="xunit" Version="2.9.2" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Include="Script\teacher.sql" />
       <None Remove="Script\student.sql" />
       <EmbeddedResource Include="Script\student.sql" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

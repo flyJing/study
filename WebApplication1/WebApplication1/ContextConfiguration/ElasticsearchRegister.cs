@@ -9,8 +9,10 @@ public static class ElasticsearchRegister
     {
         builder.Register(c =>
         {
-            var settings = new ConnectionSettings(new Uri("http://localhost:9200/"))
-                .DefaultIndex("barak"); 
+            var configuration = c.Resolve<IConfiguration>();
+            var elasticsearchUri = configuration["ElasticSearch:Uri"];
+            var settings = new ConnectionSettings(new Uri(elasticsearchUri))
+                .DefaultIndex(configuration["ElasticSearch:DefaultIndex"]); 
             
             var client = new ElasticClient(settings);
             return client;

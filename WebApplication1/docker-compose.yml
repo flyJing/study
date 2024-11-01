@@ -1,0 +1,32 @@
+﻿services:
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+    environment:
+      - MySQL:Url=server=192.168.111.129;Database=school;userid=root;password=123456;pooling=true;CharSet=utf8;port=3306;SslMode=none;CharSet=utf8mb4;Connect Timeout=150"
+      - MySQL:Version=8.0.36
+      - Elasticsearch:Uri=http://192.168.111.129:9200
+      - Elasticsearch:DefaultIndex=barak
+      - CosmosDb:EndpointUri=https://192.168.111.129:8081
+      - CosmosDb:AccountKey=C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==
+      - CosmosDb:DatabaseName=test_barak
+      - MysqlAddress:Url=Server=192.168.111.129;Database=school;User Id=root;Password=123456; Allow User Variables=true;
+      - MysqlAddress:Url=Server=192.168.111.129;Database=school;User Id=root;Password=123456; Allow User Variables=true;
+      - Redis:EndPoints=192.168.111.129
+      - RabbitMQ:UserName=guest
+      - RabbitMQ:Password=guest
+      - RabbitMQ:Host=192.168.111.129
+      - RabbitMQ:Port=6379
+    ports:
+      - "8080:8080"
+      
+  database:
+    image: mysql:8.0.36
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+    ports:
+      - "3306:3306"
+        
+    

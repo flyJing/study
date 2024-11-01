@@ -1,0 +1,30 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  PROJECT_NAME: "Study"
+  IMAGE_NAME: "myapp:${CI_COMMIT_SHA}"
+
+build:
+  stage: build
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  script:
+    - dotnet build "$PROJECT_NAME/$PROJECT_NAME.csproj" -c Release -o out
+    - docker build -t $IMAGE_NAME .
+
+test:
+  stage: test
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+  script:
+    - dotnet test "$PROJECT_NAME.Tests/$PROJECT_NAME.Tests.csproj" --no-build --verbosity normal
+
+deploy:
+  stage: deploy
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD"
+    - docker push $IMAGE_NAME

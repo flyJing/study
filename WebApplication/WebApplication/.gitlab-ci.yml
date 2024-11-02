@@ -1,33 +1,15 @@
-image: mcr.microsoft.com/dotnet/sdk:8.0
-
 stages:
   - build
-
   - deploy
 
 variables:
-  PROJECT_NAME: "WebApplication"
   IMAGE_NAME: "myapp:${CI_COMMIT_SHA}"
-  PUBLISH_PATH: "/app/publish"  # 添加发布路径变量
 
 build:
   stage: build
   image: mcr.microsoft.com/dotnet/sdk:8.0
   script:
-    - dotnet build "$PROJECT_NAME.csproj" -c Release -o out
-    - docker build --no-restore
-    - dotnet publish "WebApplication.csproj" -c Release -o $PUBLISH_PATH
-    - docker build -t $IMAGE_NAME .
-      
-  artifacts:
-    paths:
-      - $publish_path
-    expire_in: '1 hrs'
-    tags:
-      - dotnet
-    only:
-      - develop
-      - master
+    - dotnet publish "WebApplication.csproj" -c Release -o out
 
 deploy:
   stage: deploy
@@ -35,5 +17,5 @@ deploy:
   services:
     - docker:dind
   script:
-    - docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD"
-    - docker push $IMAGE_NAME
+    - docker-compose build
+    - docker-compose  up -d

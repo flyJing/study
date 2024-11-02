@@ -1,9 +1,9 @@
 ﻿services:
-  webapplication1:
+  webapplication:
     image: webapplication
     build:
       context: .
-      dockerfile: WebApplication/Dockerfile
+      dockerfile: Dockerfile
     environment:
       - MySQL:Url=server=192.168.111.129;Database=school;userid=root;password=123456;pooling=true;CharSet=utf8;port=3306;SslMode=none;CharSet=utf8mb4;Connect Timeout=150"
       - MySQL:Version=8.0.36

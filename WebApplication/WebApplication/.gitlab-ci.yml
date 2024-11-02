@@ -3,7 +3,8 @@ stages:
   - deploy
 
 variables:
-  IMAGE_NAME: "myapp:${CI_COMMIT_SHA}"
+  DOCKER_HOST: "tcp://docker:2375"
+
 
 build:
   stage: build

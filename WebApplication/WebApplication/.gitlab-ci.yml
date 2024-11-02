@@ -17,6 +17,10 @@ deploy:
   image: docker:latest
   services:
     - docker:dind
+    - command: ["--host=fd://"]
+  variables:
+      DOCKER_DRIVER: overlay2
+      DOCKER_HOST: tcp://docker:2375
   script:
     - docker login -u "$DOCKER_USERNAME" -p "$DOCKERHUB_TOKEN"
     - docker-compose build

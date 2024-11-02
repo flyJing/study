@@ -1,11 +1,14 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0
+
 stages:
   - build
-#  - test
+
   - deploy
 
 variables:
   PROJECT_NAME: "WebApplication"
   IMAGE_NAME: "myapp:${CI_COMMIT_SHA}"
+  PUBLISH_PATH: "/app/publish"  # 添加发布路径变量
 
 build:
   stage: build
@@ -13,7 +16,9 @@ build:
   script:
     - dotnet build "$PROJECT_NAME.csproj" -c Release -o out
     - docker build --no-restore
-    - dotnet publish "WebApplication.csproj" -c Release -o /app/publish
+    - dotnet publish "WebApplication.csproj" -c Release -o $PUBLISH_PATH
+    - docker build -t $IMAGE_NAME .
+      
   artifacts:
     paths:
       - $publish_path
@@ -23,11 +28,6 @@ build:
     only:
       - develop
       - master
-#test:
-#  stage: test
-#  image: mcr.microsoft.com/dotnet/sdk:8.0
-#  script:
-#    - dotnet test "$PROJECT_NAME.Tests/$PROJECT_NAME.Tests.csproj" --no-build --verbosity normal
 
 deploy:
   stage: deploy

@@ -17,5 +17,6 @@ deploy:
   services:
     - docker:dind
   script:
+    - docker login -u "$DOCKER_USERNAME" -p "$DOCKERHUB_TOKEN"
     - docker-compose build
     - docker-compose  up -d
